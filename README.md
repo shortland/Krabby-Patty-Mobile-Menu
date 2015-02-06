@@ -1,6 +1,8 @@
 # Krabby-Patty-Mobile-Menu
 Simple, Modern Mobile Menu
 
+<b>DEMO: http://QuantumAnalog.com/demo/krabbypatty/index.html</b>
+
 The name doesn't imply much to the design.
 
 Hamburger-Menu designs are pretty common nowadays. This is another one of those, simple and easy to use.
