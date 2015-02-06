@@ -1,0 +1,89 @@
+/*
+* krabbypatty.css
+* 
+* A mobile menu for mobile websites
+*
+* Created by Ilan Kleiman || http://IlanKleiman.com
+* Original publishing date: February 5th 2015
+*
+* Free to use and recode, give some credit to original author by leaving these comments, thanks!
+*/
+#patty_header
+{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 40px;
+	background-color: rgba(69, 69, 69, 0.9);
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 22px;
+	z-index: 1;
+}
+#krabby_padder
+{
+	height: 40px; 
+}
+#krabby
+{
+	position: relative;
+	bottom: 18px;
+	left: 10px;
+	transition: opacity 200ms;
+	width: 20px;
+	height: 10px;
+}
+#krabby:hover
+{
+	opacity: 0.6;
+}
+#krabby_menu
+{
+	display: none;
+	z-index: 2;
+	position: fixed;
+	top: 40px;
+	left: 0px;
+	border-top: 1px solid white;
+	background-color: rgba(69, 69, 69, 0.9);
+	width: 5000px;
+	height: 40px;
+	overflow-x: scroll !important;
+	overflow-y: hidden;
+}
+#krabby_more
+{
+	position: fixed;
+	right: 0px;
+	top: 70px;
+	z-index: 3;
+	color: #FFFFFF;
+}
+.krabby_tabs
+{
+	display: inline-block;
+	height: 40px;
+	position: relative;
+	top: 12px;
+	color: white;
+	padding-right: 15px;
+	cursor: pointer;
+}
+.krabby_tabs_spacer
+{
+	display: inline-block;
+	height: 40px;
+	position: relative;
+	top: 12px;
+}
+#patty
+{
+	margin-bottom: 4px;
+}
+#patty, #patty_2
+{
+	width: 20px;
+	height: 2px;
+	background-color: #FFFFFF;
+}
