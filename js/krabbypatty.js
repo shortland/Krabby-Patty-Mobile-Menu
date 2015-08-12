@@ -35,46 +35,14 @@ $(document).ready(function()
 			alert('Clicked on tab id: ' + this.id);
 
 			// adding the id as a parameter under name "p" has no real usage here.
-			if(this.id == "krabby_tab1")
-			{
-				window.location.href = 'index.html?p=' + this.id;
-			}
-			if(this.id == "krabby_tab2")
-			{
-				window.location.href = 'index.html?p=' + this.id
-			}
-			if(this.id == "krabby_tab3")
-			{
-				window.location.href = 'index.html?p=' + this.id
-			}
-			if(this.id == "krabby_tab4")
-			{
-				window.location.href = 'index.html?p=' + this.id
-			}			
-			if(this.id == "krabby_tab5")
-			{
-				window.location.href = 'index.html?p=' + this.id
-			}
-			if(this.id == "krabby_tab6")
-			{
-				window.location.href = 'index.html?p=' + this.id
-			}
-			if(this.id == "krabby_tab7")
-			{
-				window.location.href = 'index.html?p=' + this.id
-			}
-			if(this.id == "krabby_tab8")
-			{
-				window.location.href = 'index.html?p=' + this.id
-			}
-			if(this.id == "krabby_tab9")
-			{
-				window.location.href = 'index.html?p=' + this.id
-			}
-			if(this.id == "krabby_tab10")
-			{
-				window.location.href = 'index.html?p=' + this.id
-			}
+			window.location.href = 'index.html?p=' + this.id;
+			// alternatively can do an ajax ie:
+			/*
+				if(this.id == "krabby_tab2")
+				{
+					//ajax call for a specific page...
+				}
+			*/
 			// closing menu if you're not redirecting page
 			$('#patty_2').animate({'height':'2px', 'width':'20px', 'margin-top':'4px', 'margin-left':'0px'}, 'slow');
 			$('#patty').animate({'margin-top':'0px'}, 'slow');
