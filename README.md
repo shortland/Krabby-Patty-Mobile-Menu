@@ -1,7 +1,7 @@
 # Mobile-Menu
 Simple, Modern Mobile Menu
 
-<b>DEMO: http://ilankleiman.com/demo/hamburger/index.html</b>
+<b>DEMO: http://ilankleiman.com/demo/mobilemenu/index.html</b>
 
 "Hamburger-Menu" designs are pretty common nowadays. This is another one of those, simple and easy to use.
 
